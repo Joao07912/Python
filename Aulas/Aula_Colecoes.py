@@ -1,6 +1,6 @@
 #Tuplas ()
-#Listas []
-#Dicionarios {}
+#Listas [] 
+#Dicionarios {} (chave:valor)
 #Conjuntos {} (números)
 
 #Exemplo com Tuplas
