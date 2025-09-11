@@ -9,11 +9,11 @@ print(ds[:, 0:4]) #Mostra os 4 primeiros campos da tabela
 
 quant = np.unique(ds[1:, 1])
 print(len(quant)) 
-print(np.unique(ds[:, 1])) #Mostra as diferentes regiões do dataset
+print(np.unique(ds[1:, 1])) #Mostra as diferentes regiões do dataset
 
 
-ds_literacy = ds[1:, 9]  # Extraindo a coluna de alfabetização
-ds_literacy = ds_literacy.astype('float')  # Convertendo para float
+ds_literacy = ds[1:, 9].astype('float') # Extraindo a coluna de alfabetização
+  # Convertendo para float
 media_alfabetizacao = np.mean(ds_literacy)  # Calculando a média
 print(media_alfabetizacao)
 
